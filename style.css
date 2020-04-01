@@ -2,6 +2,16 @@ html {
   text-align: center;
 }
 
+.name {
+  letter-spacing: 5px;
+  font-size: 40px;
+}
+
+.about-me {
+  margin: 0 auto;
+  width: 75%;
+}
+
 ul {
   padding: 0;
 }
@@ -10,9 +20,13 @@ li {
   text-align: center;
 }
 
+h2 {
+  color: #2497d1;
+}
+
 a {
   text-decoration: none;
-  color: #38a2b0;
+  color: black;
 }
 
 .name {
@@ -21,12 +35,4 @@ a {
 
 .spacer {
   height: 200px;
-}
-
-footer {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  text-align: center;
-  width: 100%;
 }
