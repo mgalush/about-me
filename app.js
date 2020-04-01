@@ -1,18 +1,10 @@
 'use strict'
 
-let whatsYourName;
-let isMyName;
-let didIJustMove;
-let howManyDogs;
-let whatWasMyJob;
-let myFavPlace;
-let goodBye;
-
 // ask user what their name is
 let whatsYourName = prompt('What\'s your name?')
 
 // ask user if they know what my name is
-isMyName = prompt('Hi ' +whatsYourName+ '! Is my name Melissa?').toLowerCase();
+let isMyName = prompt('Hi ' +whatsYourName+ '! Is my name Melissa?').toLowerCase();
 if (isMyName === 'yes') {
 // console.log(isMyName + ' my name is Melissa')
  alert('Yup!  That\'s my name.');
@@ -22,7 +14,7 @@ if (isMyName === 'yes') {
 }
 
 // ask if I just moved from NC
-didIJustMove = prompt('Did I just move from NC?').toLowerCase();
+let didIJustMove = prompt('Did I just move from NC?').toLowerCase();
 if (didIJustMove === 'yes') {
  // console.log('You\'re correct!  I just moved from NC')
   alert('You\'re correct!  I just moved from NC');
@@ -32,7 +24,7 @@ if (didIJustMove === 'yes') {
 }
 
 // ask if I have 2 dogs
-howManyDogs = prompt('Do I have 2 dogs?').toLowerCase();
+let howManyDogs = prompt('Do I have 2 dogs?').toLowerCase();
 if (howManyDogs === 'no') {
   //console.log('Good job! I have 3 dogs.')
   alert('Good job! I have 3 dogs.');
@@ -42,7 +34,7 @@ if (howManyDogs === 'no') {
 }
 
 // ask if my last job was as a paralegal
-whatWasMyJob = prompt('Was my last job as a paralegal?').toLowerCase();
+let whatWasMyJob = prompt('Was my last job as a paralegal?').toLowerCase();
 if (whatWasMyJob === 'yes') {
  // console.log('I was a paralegal.  So exciting....')
   alert('I was a paralegal.  So exciting...');
@@ -52,7 +44,7 @@ if (whatWasMyJob === 'yes') {
 }
 
 //ask if my favorite place to be is in nature
-myFavPlace = prompt('Is my favorite place to be in nature?').toLowerCase();
+let myFavPlace = prompt('Is my favorite place to be in nature?').toLowerCase();
 if (myFavPlace === 'yes') {
   //console.log('Correct!  My favorite place to be is in nature.')
   alert('Correct!  My favorite place to be is in nature');
@@ -62,5 +54,5 @@ if (myFavPlace === 'yes') {
 }
 
 // say bye!
-goodBye = alert('Bye ' + whatsYourName + '!');
+let goodBye = alert('Bye ' + whatsYourName + '!');
 
