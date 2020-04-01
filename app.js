@@ -1,15 +1,15 @@
 'use strict'
 
-var whatsYourName;
-var isMyName;
-var didIJustMove;
-var howManyDogs;
-var whatWasMyJob;
-var myFavPlace;
-var goodBye;
+let whatsYourName;
+let isMyName;
+let didIJustMove;
+let howManyDogs;
+let whatWasMyJob;
+let myFavPlace;
+let goodBye;
 
 // ask user what their name is
-var whatsYourName = prompt('What\'s your name?')
+let whatsYourName = prompt('What\'s your name?')
 
 // ask user if they know what my name is
 isMyName = prompt('Hi ' +whatsYourName+ '! Is my name Melissa?').toLowerCase();
