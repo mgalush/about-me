@@ -4,16 +4,16 @@ var totalScore = 0;
 
 // intro question
 // ask user what their name is
-let whatsYourName = prompt('What\'s your name?');
-if (!whatsYourName) {
-  prompt('Let\'s try that again... what\'s your name?');
+let userName = prompt('What\'s your name?');
+while (!userName) {
+  userName = prompt('Let\'s try that again... what\'s your name?');
   //console.log('Let\'s try that again... What\'s your name?')
 }
 
 // question one
 // ask user if they know what my name is
 let isMyName = prompt(
-  'Hi ' + whatsYourName + '! Is my name Melissa?'
+  'Hi ' + userName + '! Is my name Melissa?'
 ).toLowerCase();
 if (isMyName === 'yes') {
   // console.log(isMyName + ' my name is Melissa')
@@ -127,4 +127,4 @@ while (guessCountTravel < 6 && !guessedCorrectPlace) {
   }
 }
 // say bye and give user their score
-let goodBye = alert('Thanks for taking my quiz! You scored a ' + totalScore + ' out of 10.. nice work! Bye ' + whatsYourName + '!');
+let goodBye = alert('Thanks for taking my quiz! You scored a ' + totalScore + ' out of 10.. nice work! Bye ' + userName + '!');
