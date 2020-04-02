@@ -52,7 +52,7 @@ if (whatWasMyJob === 'yes') {
 // ask if my biggest passions are psychology and philosophy
 let myBiggestPassions = prompt(
   'Are my biggest passions psychology and philosophy?'
-).toLowerCase;
+).toLowerCase();
 if (myBiggestPassions === 'yes') {
   alert('Obviouslyyyy my biggest passions are psychology and philosophy');
   // console.log('Obviouslyyyy my biggest passions are psychology and philosophy')
@@ -114,8 +114,8 @@ let whereIWantToTravelAnswer = [
 ];
 let guessedCorrectPlace = false;
 while (guessCountTravel < 6 && !guessedCorrectPlace) {
-  let whereIWantToTravel = prompt('Where do I want to travel?').toLowerCase;
-  if (whereIWantToTravelAnswer.indexOf(whereIWantToTravel) == -1) {
+  let whereIWantToTravel = prompt('Where do I want to travel?').toLowerCase();
+  if (whereIWantToTravelAnswer.indexOf(whereIWantToTravel) !== -1) {
     guessedCorrectPlace = true;
     alert('Correct! I would love to travel to ' + whereIWantToTravelAnswer.toString());
     console.log('Correct! I would love to travel to ' + whereIWantToTravel);
