@@ -1,5 +1,6 @@
 html {
   text-align: center;
+  background-color: #7bacba;
 }
 
 .name {
@@ -48,7 +49,7 @@ li {
 }
 
 h2 {
-  color: #2497d1;
+  color: white;
 }
 
 footer {
