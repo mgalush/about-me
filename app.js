@@ -57,13 +57,13 @@ function whatWasMyJob() {
 // ask if my biggest passions are psychology and philosophy
 function myBiggestPassions() {
   let myBiggestPassions = prompt(
-    'Are my biggest passions psychology and philosophy?'
+    'Do I love psychology and philosophy?'
   ).toLowerCase();
   if (myBiggestPassions === 'yes') {
-    alert('Obviouslyyyy my biggest passions are psychology and philosophy');
+    alert('Correct! Who doesn\'t love them?');
     totalScore++;
   } else {
-    alert('I\'m obsessed with all things psychology and philsophy');
+    alert('Incorrect.  Who doesn\'t love psychology and philsophy??');
   }
 
 }
