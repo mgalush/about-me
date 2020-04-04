@@ -7,9 +7,35 @@ html {
   font-size: 40px;
 }
 
-.about-me {
+.container {
+  display: grid;
+  grid-template-areas:
+    'bio bio bio'
+    'work education travel'
+    'work goals travel';
+  margin-bottom: 50px;
+}
+
+.bio {
+  grid-area: bio;
   margin: 0 auto;
-  width: 75%;
+  width: 90%;
+}
+
+.work {
+  grid-area: work;
+}
+
+.education {
+  grid-area: education;
+}
+
+.goals {
+  grid-area: goals;
+}
+
+.travel {
+  grid-area: travel;
 }
 
 ul {
@@ -18,6 +44,7 @@ ul {
 
 li {
   text-align: center;
+  list-style-type: none;
 }
 
 h2 {
@@ -29,10 +56,8 @@ a {
   color: black;
 }
 
-.name {
-  padding-bottom: 50px;
-}
-
-.spacer {
-  height: 200px;
+footer {
+  position: fixed;
+  margin-bottom: 0;
+  width: 100%;
 }
