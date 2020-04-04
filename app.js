@@ -45,10 +45,10 @@ function didIJustMove() {
 function whatWasMyJob() {
   let whatWasMyJob = prompt('Was my last job as a paralegal?').toLowerCase();
   if (whatWasMyJob === 'yes') {
-    alert('I was a paralegal.  So exciting...');
+    alert('Correct. I was a paralegal.');
     totalScore++;
   } else {
-    alert('Incorrect.  I was a paralegal.  So exciting...');
+    alert('Incorrect. I was a paralegal.');
   }
 
 }
